@@ -11,6 +11,6 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(array,index,value)
-  array[0].push(value = "x")
+def move(board,index,current_player='x')
+  board[index] = current_player
 end
